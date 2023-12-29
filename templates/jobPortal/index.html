@@ -9,7 +9,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
-    <title>whiteHr.com  </title>
+    <title>gravitonweb.com  </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Job Pro" />
     <meta name="keywords" content="Job Pro" />
@@ -376,7 +376,7 @@ input[type=submit] {
                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hidden-xs hidden-sm full_width">
                         <div class="gc_header_wrapper">
                             <div class="gc_logo">
-                                <a href="{% url 'jobs:home' %}"><img src="{% static 'jobPortal/newwhitehr.png' %}" alt="Logo" title="whitehr" class="img-responsive"></a>
+                                <a href="{% url 'jobs:home' %}"><img src="{% static 'jobPortal/gravitonLogo.png' %}" style="width: 100px; padding-top:10px;  height: auto;"  alt="Logo" title="gravitonweb" class="img-responsive"></a>
                             </div>
                         </div>
                     </div>
@@ -428,7 +428,7 @@ input[type=submit] {
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px"><g><g><path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#ffffff"/></g><g><path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#ffffff"/></g><g><path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#ffffff"/></g><g><path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#ffffff"/></g><g><path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#ffffff"/></g></g></svg>
 		</a>
         <nav class="cd-dropdown">
-        <h2><a href="">whiteHr.com</span></a></h2>
+        <h2><a href="">gravitonweb.com</span></a></h2>
         <a href="#0" class="cd-close">Close</a>
          <ul class="cd-dropdown-content">
         <li>
@@ -755,8 +755,8 @@ input[type=submit] {
                                             <div class="">
                                                 <div id="isIntersecting" class="module resume-services">
                                                     <div class="box pr mb0" style="    padding: 9px;
-    padding-top: 11px;
-}">
+                                                padding-top: 11px;
+                                                            ">
                                                         <h2 class="heading lg more-on-rgt">
                                                             Premium Candidates
                                                             <a href="{% url 'jobs:viewallPrimum' %} "
@@ -848,7 +848,8 @@ input[type=submit] {
                                                         <div class="scroll-content-x">
                                                             <ul class="four-col">
                                                                 <li class="resume-highlighter unit-no-arrows">
-                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Profile Highlighter&quot;)"
+                                                                    <!-- <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot; Profile Highlighter&quot;)" -->
+                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse('Profile Highlighter')"></div>
                                                                         class="content-box">
                                                                         <figure>
                                                                             <div class="bg-content">
@@ -863,7 +864,7 @@ input[type=submit] {
                                                                                     <p class="fs-12">Grab the attention of
                                                                                         employers</p> <a
                                                                                         href="{% url 'jobs:profileHightligter' %}"
-                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'); window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                         class="under-link fr"><i
                                                                                             class="arrow-ic"></i>
                                                                                         Read More
@@ -874,7 +875,7 @@ input[type=submit] {
                                                                     </div>
                                                                 </li>
                                                                 <li class="right-resume unit-no-arrows">
-                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Resume Writing&quot;)"
+                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse('Resume Writing')";
                                                                         class="content-box">
                                                                         <figure>
                                                                             <div class="bg-content">
@@ -889,7 +890,7 @@ input[type=submit] {
                                                                                     <p class="fs-12">Professionally written
                                                                                         resume + cover letter</p> <a
                                                                                         href="{% url 'jobs:resumeWriting' %}"
-                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                         class="under-link fr"><i
                                                                                             class="arrow-ic"></i>
                                                                                         Read More
@@ -900,7 +901,7 @@ input[type=submit] {
                                                                     </div>
                                                                 </li>
                                                                 <li class="xpress-resume unit-no-arrows">
-                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Featured Profile&quot;)"
+                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse('Featured Profile'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                         class="content-box">
                                                                         <figure>
                                                                             <div class="bg-content">
@@ -915,7 +916,7 @@ input[type=submit] {
                                                                                     <p class="fs-12">Better your chances of
                                                                                         getting shortlisted</p> <a
                                                                                         href="{% url 'jobs:featuredProfile' %}"
-                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                         class="under-link fr"><i
                                                                                             class="arrow-ic"></i>
                                                                                         Read More
@@ -926,7 +927,7 @@ input[type=submit] {
                                                                     </div>
                                                                 </li>
                                                                 <li class="career-booster unit-no-arrows">
-                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Career Booster&quot;)"
+                                                                    <div onclick="window.homeBehavior.home.common.trackResumeResponse('Career Booster')"
                                                                         class="content-box">
                                                                         <figure>
                                                                             <div class="bg-content">
@@ -941,7 +942,7 @@ input[type=submit] {
                                                                                     <p class="fs-12">Get the power of two in one
                                                                                         and speed up your job search</p> <a
                                                                                         href="{% url 'jobs:careerBooster' %}"
-                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                        onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                         class="under-link fr"><i
                                                                                             class="arrow-ic"></i>
                                                                                         Read More
@@ -1936,7 +1937,7 @@ input[type=submit] {
                                       <div class="col-lg-4 col-md-4 col-sm-4"></div>
                                         <h4>CUSTOMER SUPPORT</h4>
                                         <h5 style="color:white; margin-top:30px;">+91 838 004 4677</h5>
-                                        <p style="color:white;">hr@whitehr.com.</p>
+                                        <p style="color:white;">hr@gravitonweb.com.</p>
                                         <ul>
                                             <!-- <button id="myBtn"> <li><a href="#email_section"><i class="fa fa-plus-circle"></i> &nbsp;Enter Email</a></li></button> -->
                                             <!-- <li id="myBtn"><a href="#email_section"><i class="fa fa-plus-circle"></i> &nbsp;Enter Email</a></li> -->
@@ -2082,7 +2083,7 @@ input[type=submit] {
                                     </ul>
                                         <h4>Career Advice</h4>
                                         <h5 style="color:white; margin-top:30px;">+91 838 004 4677</h5>
-                                        <p style="color:white;">hr@whitehr.com.</p>
+                                        <p style="color:white;">hr@gravitonweb.com.</p>
                                         <!-- <ul>
                                             <li><a href="{% url 'jobs:career' %}"><i class="fa fa-plus-circle"></i> &nbsp;View More</a></li>
                                         </ul> -->
@@ -2122,7 +2123,7 @@ input[type=submit] {
                                       <div class="col-lg-4 col-md-4 col-sm-4"></div>
                                         <h4>CUSTOMER SUPPORT</h4>
                                         <h5 style="color:white; margin-top:30px;">+91 838 004 4677</h5>
-                                        <p style="color:white;">hr@whitehr.com.</p>
+                                        <p style="color:white;">hr@gravitonweb.com.</p>
                                         <ul>
                                             <!-- <button id="myBtn"> <li><a href="#email_section"><i class="fa fa-plus-circle"></i> &nbsp;Enter Email</a></li></button> -->
                                             <li id="myBtn"><a href="#email_section"><i class="fa fa-plus-circle"></i> &nbsp;Enter Email</a></li>
@@ -2226,7 +2227,7 @@ input[type=submit] {
                                       <div class="col-lg-4 col-md-4 col-sm-4"></div>
                                         <h4>Career Advice</h4>
                                         <h5 style="color:white; margin-top:30px;">+91 838 004 4677</h5>
-                                        <p style="color:white;">hr@whitehr.com.</p>
+                                        <p style="color:white;">hr@gravitonweb.com.</p>
                                         <ul>
                                             <li><a href="{% url 'jobs:career' %}"><i class="fa fa-plus-circle"></i> &nbsp;View More</a></li>
                                         </ul>
@@ -2323,7 +2324,7 @@ input[type=submit] {
                                                 <div class="scroll-content-x">
                                                     <ul class="four-col">
                                                         <li class="resume-highlighter unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Profile Highlighter&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Profile Highlighter')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2337,7 +2338,7 @@ input[type=submit] {
                                                                                 Profile Highlighter</h3>
                                                                              <p class="fs-12">Attract the Employer</p> <a
                                                                                 href="{% url 'jobs:profileHightligter' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2348,7 +2349,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="right-resume unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Resume Writing&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Resume Writing')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2363,7 +2364,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Professionally written
                                                                                 resume + cover letter</p> <a
                                                                                 href="{% url 'jobs:resumeWriting' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2374,7 +2375,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="xpress-resume unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Featured Profile&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Featured Profile')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2389,7 +2390,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Better your chances of
                                                                                 getting shortlisted</p> <a
                                                                                 href="{% url 'jobs:featuredProfile' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2400,7 +2401,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="career-booster unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Career Booster&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Career Booster')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2415,7 +2416,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Get the power of two in one
                                                                                 and speed up your job search</p> <a
                                                                                 href="{% url 'jobs:careerBooster' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2445,7 +2446,7 @@ input[type=submit] {
                                                 <div class="scroll-content-x">
                                                     <ul class="four-col">
                                                         <li class="resume-highlighter unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Profile Highlighter&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Profile Highlighter')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2459,7 +2460,7 @@ input[type=submit] {
                                                                                 Profile Highlighter</h3>
                                                                              <p class="fs-12">Attract the Employer</p> <a
                                                                                 href="{% url 'jobs:profileHightligter' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2470,7 +2471,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="right-resume unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Resume Writing&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Resume Writing')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2485,7 +2486,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Professionally written
                                                                                 resume + cover letter</p> <a
                                                                                 href="{% url 'jobs:resumeWriting' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2496,7 +2497,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="xpress-resume unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Featured Profile&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Featured Profile')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2511,7 +2512,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Better your chances of
                                                                                 getting shortlisted</p> <a
                                                                                 href="{% url 'jobs:featuredProfile' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2522,7 +2523,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="career-booster unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Career Booster&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Career Booster')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2537,7 +2538,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Get the power of two in one
                                                                                 and speed up your job search</p> <a
                                                                                 href="{% url 'jobs:careerBooster' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2567,7 +2568,7 @@ input[type=submit] {
                                                 <div class="scroll-content-x">
                                                     <ul class="four-col">
                                                         <li class="resume-highlighter unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Profile Highlighter&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Profile Highlighter')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2581,7 +2582,7 @@ input[type=submit] {
                                                                                 Profile Highlighter</h3>
                                                                              <p class="fs-12">Attract the Employer</p> <a
                                                                                 href="{% url 'jobs:profileHightligter' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2592,7 +2593,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="right-resume unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Resume Writing&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Resume Writing')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2607,7 +2608,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Professionally written
                                                                                 resume + cover letter</p> <a
                                                                                 href="{% url 'jobs:resumeWriting' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2618,7 +2619,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="xpress-resume unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Featured Profile&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Featured Profile')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2633,7 +2634,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Better your chances of
                                                                                 getting shortlisted</p> <a
                                                                                 href="{% url 'jobs:featuredProfile' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2644,7 +2645,7 @@ input[type=submit] {
                                                             </div>
                                                         </li>
                                                         <li class="career-booster unit-no-arrows">
-                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse(&quot;Career Booster&quot;)"
+                                                            <div onclick="window.homeBehavior.home.common.trackResumeResponse('Career Booster')"
                                                                 class="content-box">
                                                                 <figure>
                                                                     <div class="bg-content">
@@ -2659,7 +2660,7 @@ input[type=submit] {
                                                                             <p class="fs-12">Get the power of two in one
                                                                                 and speed up your job search</p> <a
                                                                                 href="{% url 'jobs:careerBooster' %}"
-                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies(&quot;Read-More&quot;), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
+                                                                                onclick="window.homeBehavior.home.tracking.trackCareerServcies('Read-More'), window.homeBehavior.careerEvents.captureCareerEvents('HOMEPAGE')"
                                                                                 class="under-link fr"><i
                                                                                     class="arrow-ic"></i>
                                                                                 Read More
@@ -2790,7 +2791,7 @@ input[type=submit] {
                   <!-- <div class="jp_newsletter_text">
                     <a href="/en/"><img src="/static/jobPortal/images/content/news_logo.png" class="img-responsive" alt="news_logo"></a>
                   </div> -->
-                  <h5 style="color:white; font-size:20px;">Our Whitehr team will get back to you </h5>
+                  <h5 style="color:white; font-size:20px;">Our gravitonweb team will get back to you </h5>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                   <div class="jp_newsletter_field" >
@@ -2823,7 +2824,7 @@ input[type=submit] {
                                 <div class="jp_footer_first_cont">
                                     <h2>ADDRESS</h2>
                                     <p style="padding-top:25px">Mayur Trade Center Phase 2, Old Pune – Mumbai Highway, Station Ofc 101C, Chinchwad, Pimpri-Chinchwad, Maharashtra 411019
-                                        hr@whitehr.com.<br><br>
+                                        hr@gravitonweb.com.<br><br>
                                         
                                         <!-- Call us<br>
                                         +91 838 004 4677</p> -->
@@ -2974,7 +2975,7 @@ input[type=submit] {
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                     <div class="jp_bottom_footer_left_cont">
-                                        <p>©WhiteHR.com  All Rights Reserved.</p>
+                                        <p>©gravitonweb.com  All Rights Reserved.</p>
                                     </div>
                                     <div class="jp_bottom_top_scrollbar_wrapper">
                                         <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
@@ -2983,9 +2984,9 @@ input[type=submit] {
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                     <div class="jp_bottom_footer_right_cont" >
                                         <ul>
-                                            <li><a href="https://www.facebook.com/WhiteHr-Consultancy-Services-106164138349855"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://www.instagram.com/whitehrconsultancy/"><i class="fa fa-instagram"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/whitehr-consultancy-services-a5666b209/"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="https://www.facebook.com/gravitonweb-Consultancy-Services-106164138349855"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/gravitonwebconsultancy/"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/gravitonweb-consultancy-services-a5666b209/"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -919,7 +919,7 @@ def successUrl(request):
         s1.paymentDone=True
         s1.save()
         url = "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send"
-        payload = {"personalizations": [{"to": [{"email": s1.email}],"subject": " Whitehr.com sussfully payment done "}],"from": {"email": "anuj840084@gmail.com"},"content": [{"type": "text/plain","value": "Hello, World!"}]}
+        payload = {"personalizations": [{"to": [{"email": s1.email}],"subject": " gravitonweb.com sussfully payment done "}],"from": {"email": "anuj840084@gmail.com"},"content": [{"type": "text/plain","value": "Hello, World!"}]}
         payload =json.dumps(payload) 
         headers = {
             'content-type': "application/json",

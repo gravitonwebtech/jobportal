@@ -56,6 +56,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
     "corsheaders.middleware.CorsMiddleware",
+    'django.middleware.common.CommonMiddleware',
     "django.middleware.common.CommonMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.middleware.locale.LocaleMiddleware",  # <-- add to load language prefix
@@ -116,6 +117,9 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:8000",  # Adjust this to the origin of your frontend application
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -168,7 +172,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, "staticfiles")
 # cors config
 CORS_ORIGIN_ALLOW_ALL = True
 
-ALLOWED_HOSTS = ['whitehr.com','www.whitehr.com','3.84.113.166',"*"]
+ALLOWED_HOSTS = ['gravitonweb.com','www.gravitonweb.com','3.84.113.166',"*"]
 
 CORS_ALLOW_METHODS = (
     "DELETE", 
